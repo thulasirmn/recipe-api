@@ -1,10 +1,10 @@
 version: "3"
 
 services:
-  app:
+  apps:
     build:
       context: .
-      dockerfile: Dockerfile 
+      
     ports:
       - "8000:8000"
     volumes:
